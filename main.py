@@ -2,7 +2,6 @@ from datetime import datetime
 import flet as ft
 import dpyFuncoes
 
-
 def main(page: ft.Page):
     def atualizarClima(e):
         ###########################################################
@@ -11,7 +10,7 @@ def main(page: ft.Page):
         cidade, pais = pesqLocal.value.split(',')
 
         ## Clima atual
-        dadosClima = funcoes.obterClimaPorNome(funcoes.apiKey, cidade=cidade, pais=pais)
+        dadosClima = dpyFuncoes.obterClimaPorNome(dpyFuncoes.apiKey, cidade=cidade, pais=pais)
 
         cntCentralLinha1.controls[0].value = dadosClima['name']
         cntCentralLinha2.controls[0].src =  f"https://openweathermap.org/img/wn/{dadosClima['weather'][0]['icon']}.png"
@@ -20,7 +19,7 @@ def main(page: ft.Page):
 
         ## Previsão do tempo
         # 1. Vamos obter os dados da previsão através da função obterPrevisaoPorNome
-        dadosPrevisao = funcoes.obterPrevisaoPorNome(funcoes.apiKey, cidade=cidade, pais=pais)
+        dadosPrevisao = dpyFuncoes.obterPrevisaoPorNome(dpyFuncoes.apiKey, cidade=cidade, pais=pais)
 
         # 2. Atribuir os valores padrão ao dicionário que irá receber os dados do container inferior
         # tempMaxDia = {"2024-11-23": ("Seg", "10n", 28), "2024-11-24": ("Ter", "10d", 32),}
@@ -61,7 +60,7 @@ def main(page: ft.Page):
         page.update()
 
     def obterLocalUsuario(e):
-        listaInfIp = funcoes.obterCoordPorIpUsuario()
+        listaInfIp = dpyFuncoes.obterCoordPorIpUsuario()
 
         # [latitude,longitude,cidade,regiao,pais]
         cidade = listaInfIp[2]
@@ -73,7 +72,7 @@ def main(page: ft.Page):
 
 
     page.bgcolor = ft.colors.BLACK
-    page.title = "Meu primeiro App em Python com Flet"
+    page.title = "Clima"
     page.window.height = 720
     page.window.width = 350
 

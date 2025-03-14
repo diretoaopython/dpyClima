@@ -1,6 +1,5 @@
 import requests
 
-
 """
 Para mais informações sobre como obter a chave, assista o vídeo abaixo
 06 - Aprenda Python com Flet criando a conta da API OpenWeatherMap
