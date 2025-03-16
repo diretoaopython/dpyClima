@@ -1,4 +1,4 @@
-Na série de vídeos [Aprenda Python com Flet](https://www.youtube.com/watch?v=QMwk-yx00XY&list=PLi6TNT5J8PtXotYJBLypBTWoTW7OsXFP4) construímos um app para exibir o clima atual e a previsão do tempo de uma determinada localidade usando uma conta gratuita da API do Tempo do Portal [OpenWeatherMap](https://openweathermap.org/).
+Na série de vídeos [Aprenda Python com Flet - Clima](https://www.youtube.com/watch?v=QMwk-yx00XY&list=PLi6TNT5J8PtXotYJBLypBTWoTW7OsXFP4) construímos um app para exibir o clima atual e a previsão do tempo de uma determinada localidade usando uma conta gratuita da API do Tempo do Portal [OpenWeatherMap](https://openweathermap.org/).
 
 Mostramos a construção do aplicativo desde a interface do usuário, integração da API, até o uso em um disposito móvel.
 
