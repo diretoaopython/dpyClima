@@ -24,5 +24,5 @@ Não deixe de se inscrever no nosso canal [Direto ao Python](https://www.youtube
 10 - [Criando a função que retorna a previsão do do tempo](https://www.youtube.com/watch?v=3CWzf50UjQ0&list=PLi6TNT5J8PtXotYJBLypBTWoTW7OsXFP4)<br> 
 11 - [Criando um evento que mostre o clima atual](https://www.youtube.com/watch?v=ZP2nXf1Ujtc&list=PLi6TNT5J8PtXotYJBLypBTWoTW7OsXFP4)<br> 
 12 - [Criando um evento que mostre a previsão do tempo dos próximos dias](https://www.youtube.com/watch?v=pD1b6IUotBY&list=PLi6TNT5J8PtXotYJBLypBTWoTW7OsXFP4)<br> 
-13 - [Amostrando o clima e a previsão do tempo através do IP do usuário](https://www.youtube.com/watch?v=YOHrXbio2yQ&list=PLi6TNT5J8PtXotYJBLypBTWoTW7OsXFP4)<br>  - 
+13 - [Amostrando o clima e a previsão do tempo através do IP do usuário](https://www.youtube.com/watch?v=YOHrXbio2yQ&list=PLi6TNT5J8PtXotYJBLypBTWoTW7OsXFP4)<br>
 14 - [Aprenda Python com Flet executando o aplicativo Clima através do Flet Mobile](https://www.youtube.com/watch?v=O2RVwh5uKTg)<br>
